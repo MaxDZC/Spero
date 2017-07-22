@@ -1,0 +1,45 @@
+body.blue{
+	background-color: #5B7180;
+}
+body.yellow{
+	background-color: #FFD4B5;
+}
+body.pale{
+	background-color: #DAF0FF;
+}
+img.logo{
+	width: 100%;
+}
+img.img-header{
+	height: 100%;
+}
+.vertical-center {
+	min-height: 100%;
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+}
+.btn{
+	color: white;
+	background-color: #5B7180;
+	width: 100%;
+}
+a:link, a:visited, a:hover{
+	color: #5B7180;
+}
+a:active{
+	color: #B5E0FF;
+}
+.navbar{
+	height: auto !important;
+}
+textarea {
+   resize: none;
+}
+.input-group-addon{
+	background-color: #5B7180;
+	color: white;
+}
+.progress-bar{
+	background-color: #70A6FF;
+}
