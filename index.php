@@ -14,7 +14,7 @@
 		<div class="container">
 			<div class="row vertical-center">
 				<div class="col-xs-6 col-xs-offset-3">
-					<img class="logo" src="img/logo.png">
+					<img class="logo" src="img/spero.png">
 				</div>
 			</div>
 		</div>

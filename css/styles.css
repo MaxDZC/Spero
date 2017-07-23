@@ -10,8 +10,11 @@ body.pale{
 img.logo{
 	width: 100%;
 }
+img.spero{
+	width: 10%;
+}
 img.img-header{
-	height: 100%;
+	height: 110%;
 }
 .vertical-center {
 	min-height: 100%;
@@ -23,6 +26,8 @@ img.img-header{
 	color: white;
 	background-color: #5B7180;
 	width: 100%;
+	margin-top: 1%;
+	margin-bottom: 1%;
 }
 a:link, a:visited, a:hover{
 	color: #5B7180;
@@ -42,4 +47,30 @@ textarea {
 }
 .progress-bar{
 	background-color: #70A6FF;
+}
+
+@media (min-width: 540px) {
+	div.margins{
+	margin-top: 5%;
+}
+img.margins{
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+}
+@media (max-width: 540px) {
+	img.margins{
+		margin-top: 20%;
+		margin-bottom: 20%;
+	}
+	div.margins{
+		margin-top: 5%;
+	}
+	img.spero{
+		width: 35%;
+	}	
+	.footer {
+		position: fixed;
+		bottom: 2%;
+	}
 }

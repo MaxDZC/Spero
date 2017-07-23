@@ -8,7 +8,7 @@ echo'
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="home.php"><img class="img-header" src="img/logo.png" ></a>
+          <a class="navbar-brand" href="home.php"><img class="img-header" src="img/birdhead.png" ></a>
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
