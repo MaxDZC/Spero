@@ -7,7 +7,7 @@ echo'
 	    </ul>
 	</div>
 	<div class="col-sm-4 hidden-xs text-center">
-		<img class="img-footer" src="img/birdhead.png" >
+		<img class="img-footer" src="img/speroword.png" >
 	</div>
 	<div class="col-sm-4 col-xs-9 text-right">
 		<ul class="list-inline">

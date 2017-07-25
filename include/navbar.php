@@ -14,7 +14,7 @@ echo'
           <ul class="nav navbar-nav">
             <li><a href="home.php">Status</a></li>
             <li><a href="#pages">Evaluate</a></li>
-            <li><a href="login.php">Logout</a></li>
+            <li><a href="index.php">Logout</a></li>
           </ul>
         </div>
       </div>
