@@ -12,8 +12,8 @@ echo'
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li><a href="home.php">Home</a></li>
-            <li><a href="#pages">Profile</a></li>
+            <li><a href="home.php">Status</a></li>
+            <li><a href="#pages">Evaluate</a></li>
             <li><a href="login.php">Logout</a></li>
           </ul>
         </div>

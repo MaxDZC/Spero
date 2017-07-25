@@ -24,7 +24,10 @@ img.title{
 	margin-bottom: 10%;
 }
 img.img-header{
-	height: 110%;
+	height: 100%;
+}
+img.img-footer{
+	height: 3%;
 }
 .vertical-center {
 	min-height: 100%;
@@ -43,7 +46,7 @@ a:link, a:visited, a:hover{
 	color: #5B7180;
 }
 a:active{
-	color: #B5E0FF;
+	color: #5B7180;
 }
 .navbar{
 	height: auto !important;
@@ -74,6 +77,11 @@ div.footer{
 	right:0%;
 	margin-left: 0%;
 	margin-right: 0%;
+}
+div.centerscreen{
+	position: relative;
+	top: 40%;
+	transform: translateY(-50%);
 }
 div.panelfooter{
 	background-color: #bccbd6;

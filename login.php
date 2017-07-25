@@ -34,16 +34,9 @@
 					</div>
 				</div>
 			</div>
+			<?php include("include/footer.php");?>
 		</div>
-		<div class="container">
-			<div class="row footer">
-				<div class="col-sm-12 panelfooter">
-					<br>
-						<p>Posted by: Hege Refsnes</p>
-						<p>Contact information: <a href="mailto:someone@example.com">someone@example.com</a>.</p>
-				</div>
-			</div>
-		</div>
+		
 	</body>
 </html>
 

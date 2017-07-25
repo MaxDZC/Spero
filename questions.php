@@ -2,7 +2,7 @@
 	<head>
 		<?php include("include/externals.php");?>
 		<style>
-			.mydiv{
+			.centerscreen{
 				position: relative;
 				top: 40%;
 				transform: translateY(-50%);
@@ -11,7 +11,7 @@
 	</head>
 	<body class="pale">	
 		<?php include("include/navbar.php");?>
-		<div class="container mydiv">
+		<div class="container centerscreen">
 			<div class="row">
 				<div class="col-xs-12 col-sm-4 col-sm-offset-4 text-center">
 				 	RANDOM QUESTION IDK HAHAHA
