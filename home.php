@@ -1,12 +1,19 @@
 <html>
 	<head>
 		<?php include("include/externals.php");?>
+		<style>
+			.mydiv{
+				position: relative;
+				top: 40%;
+				transform: translateY(-50%);
+			}
+		</style>
 	</head>
 	<body class="pale">	
 		<?php include("include/navbar.php");?>
-		<div class="container">
+		<div class="container mydiv">
 			<div class="row">
-				<div class="col-xs-12 col-sm-4 col-sm-offset-4 text-center margins">
+				<div class="col-xs-12 col-sm-4 col-sm-offset-4 text-center">
 				 	RANDOM QUESTION IDK HAHAHA
 				</div>
 			</div>
@@ -16,7 +23,7 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-xs-12 col-sm-12 footer">
+				<div class="col-xs-12 col-sm-12">
 					<div class="col-xs-12 col-sm-4">
 						<button class="btn">Yes</button>
 						<button class="btn">No</button>
