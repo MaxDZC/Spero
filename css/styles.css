@@ -10,11 +10,18 @@ body.pale{
 img.logo{
 	width: 100%;
 }
+img.transitionimg{
+	width: 100%;
+}
 img.spero{
 	width: 10%;
 }
 img.login{
 	width: 100%;
+}
+img.title{
+	width: 50%;
+	margin-bottom: 10%;
 }
 img.img-header{
 	height: 110%;
@@ -51,15 +58,35 @@ textarea {
 .progress-bar{
 	background-color: #70A6FF;
 }
-
+div.fullscreen{
+	background-color: #5B7180;
+	position:absolute;
+	top:0%;
+	bottom:0%;
+	left:0%;
+	right:0%;
+	z-index:50;
+}
+div.footer{
+	position: absolute;
+	bottom: 0;
+	left:0%;
+	right:0%;
+	margin-left: 0%;
+	margin-right: 0%;
+}
+div.panelfooter{
+	background-color: #bccbd6;
+	color: white;
+}
 @media (min-width: 540px) {
 	div.margins{
-	margin-top: 5%;
-}
-img.margins{
-	margin-top: 5%;
-	margin-bottom: 5%;
-}
+		margin-top: 5%;
+	}
+	img.margins{
+		margin-top: 5%;
+		margin-bottom: 5%;
+	}
 }
 @media (max-width: 540px) {
 	img.margins{
@@ -72,8 +99,8 @@ img.margins{
 	img.spero{
 		width: 35%;
 	}	
-	.footer {
-		position: fixed;
-		bottom: 2%;
+	img.title{
+		width: 100%;
+		margin-bottom: 10%;
 	}
 }
