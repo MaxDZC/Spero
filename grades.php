@@ -83,7 +83,7 @@
 							</tr>
 							<tr>
 								<td colspan="4">
-									<button class="btn" type="button">Submit</span></button>
+									<a href="questions.php"><button class="btn" type="button">Submit</span></button></a>
 								</td>
 							</tr>
 					</table>

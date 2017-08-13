@@ -11,30 +11,70 @@
 	</head>
 	<body class="pale">	
 		<?php include("include/navbar.php");?>
-		<div class="container mydiv">
+		<div class="container centerscreen">
 			<div class="row">
-				<div class="col-xs-12 col-sm-4 col-sm-offset-4 text-center">
-				 	RANDOM QUESTION IDK HAHAHA
+				<div class="col-xs-12 col-sm-4">
+				 	<div class="panel">
+				 		<div class="panel-heading text-center">
+				 			<img class="title margins" src="img/bird.png" ><br>
+				 			<h4>Career Name</h4>
+				 		</div>
+				 		<div class="panel-body">
+				 			<h4>Possible Courses</h4>
+				 			<hr/>
+					 		aaa<br>
+					 		aaa<br>
+					 		aaa<br>
+				 			<hr/>
+				 			<h4>Skills</h4>
+				 			<hr/>
+				 			hahah<br>
+				 			hahah<br>
+				 			hahah<br>
+				 		</div>
+				 	</div>
 				</div>
-			</div>
-			<div class="row">
-				<div class="col-xs-12 col-sm-12 text-center">
-				 	<img class="spero  margins" src="img/bird.png" >
+				<div class="col-xs-12 col-sm-4">
+				 	<div class="panel">
+				 		<div class="panel-heading text-center">
+				 			<img class="title margins" src="img/bird.png" ><br>
+				 			<h4>Career Name</h4>
+				 		</div>
+				 		<div class="panel-body">
+				 			<h4>Possible Courses</h4>
+				 			<hr/>
+					 		aaa<br>
+					 		aaa<br>
+					 		aaa<br>
+				 			<hr/>
+				 			<h4>Skills</h4>
+				 			<hr/>
+				 			hahah<br>
+				 			hahah<br>
+				 			hahah<br>
+				 		</div>
+				 	</div>
 				</div>
-			</div>
-			<div class="row">
-				<div class="col-xs-12 col-sm-12">
-					<div class="col-xs-12 col-sm-4">
-						<button class="btn">Yes</button>
-						<button class="btn">No</button>
-					</div>
-					<div class="col-xs-12 col-sm-4">
-						<button class="btn">I Don't Know</button>
-					</div>
-					<div class="col-xs-12 col-sm-4">
-						<button class="btn">Probably</button>
-						<button class="btn">Probably Not</button>
-					</div>
+				<div class="col-xs-12 col-sm-4">
+				 	<div class="panel">
+				 		<div class="panel-heading text-center">
+				 			<img class="title margins" src="img/bird.png" ><br>
+				 			<h4>Career Name</h4>
+				 		</div>
+				 		<div class="panel-body">
+				 			<h4>Possible Courses</h4>
+				 			<hr/>
+					 		aaa<br>
+					 		aaa<br>
+					 		aaa<br>
+				 			<hr/>
+				 			<h4>Skills</h4>
+				 			<hr/>
+				 			hahah<br>
+				 			hahah<br>
+				 			hahah<br>
+				 		</div>
+				 	</div>
 				</div>
 			</div>
 		</div>

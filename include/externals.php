@@ -6,4 +6,5 @@ echo '<script src="js/bootstrap.min.js"></script> ';
 echo '<link rel="stylesheet" href="css/bootstrap.min.css">';
 echo '<link rel="stylesheet" href="css/navbar.css">';
 echo '<link rel="stylesheet" href="css/styles.css">';
+echo '<link rel="stylesheet" href="css/bubble.css">';
 ?>

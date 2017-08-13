@@ -13,12 +13,17 @@
 			</div>
 		</div>
 		<div class="container">
-			<div class="row vertical-center">
+			<div class="row">
 				<div class="col-sm-8 col-sm-offset-2 col-xs-8 col-xs-offset-2" align="center">
 					<div class="col-sm-12">
 						<img class="title" src="img/speroword.png">
 					</div>
 					<div class="col-sm-4 hidden-xs">
+						<div class="talk-bubble tri-right round btm-right-in">
+							<div class="talktext">
+								<p>Moving our way back up the right side indented. Uses .round and .right-in</p>
+							</div>
+						</div>
 						<img class="login" src="img/bird.png" >
 					</div>
 					<div class="col-sm-6 col-sm-offset-2 col-xs-12">

@@ -70,6 +70,15 @@ div.fullscreen{
 	right:0%;
 	z-index:50;
 }
+div.panel{
+	background-color: #f2f9ff;
+	border-color: #f2f9ff;
+	color: #a5d5ff;
+}
+div.panel-heading{
+	background-color: #a5d5ff;
+	color: #f2f9ff;
+}
 div.footer{
 	position: absolute;
 	bottom: 0;
