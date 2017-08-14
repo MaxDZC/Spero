@@ -19,11 +19,6 @@
 						<img class="title" src="img/speroword.png">
 					</div>
 					<div class="col-sm-4 hidden-xs">
-						<!-- <div class="talk-bubble tri-right round btm-right-in">
-							<div class="talktext">
-								<p>Moving our wayight-in</p>
-							</div>
-						</div> -->
 						<img class="login" src="img/bird.png" >
 					</div>
 					<div class="col-sm-6 col-sm-offset-2 col-xs-12">

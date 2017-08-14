@@ -68,14 +68,14 @@ div.fullscreen{
 	bottom:0%;
 	left:0%;
 	right:0%;
-	z-index:50;
+	z-index:100;
 }
 div.panel{
 	background-color: #f2f9ff;
 	border-color: #f2f9ff;
 	color: #a5d5ff;
 }
-div.panel-heading{
+div.panel-heading-color{
 	background-color: #a5d5ff;
 	color: #f2f9ff;
 }
@@ -120,4 +120,26 @@ div.panelfooter{
 		width: 100%;
 		margin-bottom: 10%;
 	}
+}
+
+div.stemClass{
+	background-color: #f6ff8e;
+	color: #8f9354;
+}
+div.abmClass{
+	background-color: #58ce70;
+	color: #2a823c;
+
+}
+div.humssClass{
+	background-color: #5c90d1;
+	color: #31598c;
+}
+div.gasClass{
+	background-color: #efefef;
+	color: #a5a5a5;
+}
+
+.marginTop{
+	margin-top: 30px;
 }

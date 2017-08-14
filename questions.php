@@ -2,24 +2,26 @@
 	<head>
 		<?php include("include/externals.php");?>
 		<style>
-			.centerscreen{
-				position: relative;
-				top: 40%;
-				transform: translateY(-50%);
-			}
+			
 		</style>
 	</head>
 	<body class="pale">	
 		<?php include("include/navbar.php");?>
 		<div class="container centerscreen">
 			<div class="row">
-				<div class="col-xs-12 col-sm-4 col-sm-offset-4 text-center">
-				 	RANDOM QUESTION IDK HAHAHA
+				<div class="col-xs-12 col-sm-10 col-sm-offset-1" align="center">
+					<div class="talk-bubble round">
+						<div class="talktext">
+				 			<b>Random Question on Lorem Ipsum hinsert long text kay wala koy txt ettext so lthis is a storoy abot how my life got flipped turned upside downahahaha Yeah ahahaha i try </b>
+				 		</div>
+				 	</div>
 				</div>
 			</div>
+			<div class="margins hidden-sm hidden-md hidden-lg">
+			</div>
 			<div class="row">
-				<div class="col-xs-12 col-sm-12 text-center">
-				 	<img class="spero  margins" src="img/bird.png" >
+				<div class="col-xs-12 col-sm-12 text-center hidden-xs">
+				 	<img class="spero margins" src="img/bird.png" >
 				</div>
 			</div>
 			<div class="row">

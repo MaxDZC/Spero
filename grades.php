@@ -9,18 +9,22 @@
 		<?php include("include/navbar.php");?>
 		<div class="container centerscreen">
 			<div class="row">
-				<div class="col-xs-12 col-sm-3 col-sm-offset-1 text-center">
-				 	<h3>Enter Grades!</h3>
-				 	<img class="title" src="img/bird.png" >
+				<div class="col-xs-12 col-sm-3 col-sm-offset-1 " align="center">
+				 	<div class="talk-bubble round">
+						<div class="talktext">
+							Enter Grades!
+				 		</div>
+				 	</div>
+				 	<img class="title marginTop hidden-xs" src="img/bird.png" >
 				</div>
 				<div class="col-xs-12 col-sm-7">
 					<table class="table">
 						<thead>
 							<tr>
-								<th>1st Quarter</th>
-								<th>2nd Quarter</th>
-								<th>3rd Quarter</th>
-								<th>4th Quarter</th>
+								<th>1st <span class="hidden-xs">Period</span></th>
+								<th>2nd <span class="hidden-xs">Period</span></th>
+								<th>3rd <span class="hidden-xs">Period</span></th>
+								<th>4th <span class="hidden-xs">Period</span></th>
 							</tr>
 						</thead>
 						<tbody>
@@ -37,9 +41,6 @@
 								<td>
 									<input type="text" placeholder="English Grade" class="form-control">
 								</td>
-								<td>
-									<button class="btn" type="button"> - </button>
-								</td>
 							</tr>
 							<tr>
 								<td>
@@ -54,9 +55,6 @@
 								<td>
 									<input type="text" placeholder="Math Grade" class="form-control">
 								</td>
-								<td>
-									<button class="btn" type="button"> - </button>
-								</td>
 							</tr>
 							<tr>
 								<td>
@@ -70,17 +68,9 @@
 								</td>
 								<td>
 									<input type="text" placeholder="Science Grade" class="form-control">
-								</td>
-								<td>
-									<button class="btn" type="button"> - </button>
 								</td>
 							</tr>
 						</tbody>
-							<tr>
-								<td colspan="4">
-									<button class="btn" type="button"><span class="glyphicon glyphicon-plus"></span></button>
-								</td>
-							</tr>
 							<tr>
 								<td colspan="4">
 									<a href="questions.php"><button class="btn" type="button">Submit</span></button></a>
