@@ -1,16 +1,25 @@
 <html>
 	<head>
-		<?php include("include/externals.php");?>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script src="js/jquery-3.2.1.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/w3.js"></script>
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/navbar.css">
+		<link rel="stylesheet" href="css/styles.css">
+		<link rel="stylesheet" href="css/bubble.css">
 		<style>
 			
 		</style>
 	</head>
 	<body class="pale">	
-		<?php include("include/navbar.php");?>
+		<div w3-include-html="include/navbar.html" class="navbar navbar-default"></div>
 		<div class="container centerscreen">
 			<div class="row">
 				<div class="col-xs-12 col-sm-3 col-sm-offset-1 " align="center">
-				 	<div class="talk-bubble round">
+					<div class="hidden-xs"><br><br><br><br><br></div>
+				 	<div class="talk-bubble round tri-right left-top-bot">
 						<div class="talktext">
 							Enter Grades!
 				 		</div>
@@ -70,10 +79,52 @@
 									<input type="text" placeholder="Science Grade" class="form-control">
 								</td>
 							</tr>
+							<tr>
+								<td>
+									<input type="text" placeholder="Filipino Grade" class="form-control">
+								</td>
+								<td>
+									<input type="text" placeholder="Filipino Grade" class="form-control">
+								</td>
+								<td>
+									<input type="text" placeholder="Filipino Grade" class="form-control">
+								</td>
+								<td>
+									<input type="text" placeholder="Filipino Grade" class="form-control">
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<input type="text" placeholder="Araling Panlipunan Grade" class="form-control">
+								</td>
+								<td>
+									<input type="text" placeholder="Araling Panlipunan Grade" class="form-control">
+								</td>
+								<td>
+									<input type="text" placeholder="Araling Panlipunan Grade" class="form-control">
+								</td>
+								<td>
+									<input type="text" placeholder="Araling Panlipunan Grade" class="form-control">
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<input type="text" placeholder="Mapeh Grade" class="form-control">
+								</td>
+								<td>
+									<input type="text" placeholder="Mapeh Grade" class="form-control">
+								</td>
+								<td>
+									<input type="text" placeholder="Mapeh Grade" class="form-control">
+								</td>
+								<td>
+									<input type="text" placeholder="Mapeh Grade" class="form-control">
+								</td>
+							</tr>
 						</tbody>
 							<tr>
 								<td colspan="4">
-									<a href="questions.php"><button class="btn" type="button">Submit</span></button></a>
+									<a href="questions.html"><button class="btn" type="button">Submit</span></button></a>
 								</td>
 							</tr>
 					</table>
@@ -85,9 +136,10 @@
 				
 			</div>
 		</div>
-		<?php include("include/footer.php");?>
+		<div w3-include-html="include/footer.html" class="row footer"></div>
 	</body>
 </html>
+<script> w3.includeHTML(); </script>
 <!-- 
 English
 Math

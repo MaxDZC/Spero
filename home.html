@@ -1,6 +1,15 @@
 <html>
 	<head>
-		<?php include("include/externals.php");?>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script src="js/jquery-3.2.1.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/w3.js"></script>
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/navbar.css">
+		<link rel="stylesheet" href="css/styles.css">
+		<link rel="stylesheet" href="css/bubble.css">
+
 		<style>
 			.mydiv{
 				position: relative;
@@ -10,7 +19,7 @@
 		</style>
 	</head>
 	<body class="pale">	
-		<?php include("include/navbar.php");?>
+		<div w3-include-html="include/navbar.html" class="navbar navbar-default"></div>
 		<div class="container centerscreen">
 			<div class="row">
 				<div class="col-xs-12 col-sm-8 col-sm-offset-2">
@@ -26,7 +35,7 @@
 					 	<div class="panel panelTrack">
 					 		<div class="panel-heading text-center">
 					 			<img class="title margins" src="img/bird.png" ><br>
-					 			<h4 class="word">ABM</h4>
+					 			<h4 class="word">ArtsDesign</h4>
 					 		</div>
 					 	</div>
 					</div>
@@ -34,7 +43,7 @@
 					 	<div class="panel panelTrack">
 					 		<div class="panel-heading text-center">
 					 			<img class="title margins" src="img/bird.png" ><br>
-					 			<h4 class="word">HUMSS</h4>
+					 			<h4 class="word">Sports</h4>
 					 		</div>
 					 	</div>
 					</div>
@@ -110,11 +119,20 @@
 				</div>
 			</div>
 		</div>
-		<?php include("include/footer.php");?>
+		<div w3-include-html="include/footer.html" class="row footer"></div>
 	</body>
 </html>
 
 <script>
+	var Tracks = {
+					ABM : ["Business","Public and Human Services","ABMCareer","CourseA","CourseB","CourseM","CourseM","CourseB","CourseA","CourseB","CourseM","CourseA"],
+					HUMSS : ["Business","Public and Human Services","ABMCareer","CourseA","CourseB","CourseM","CourseM","CourseB","CourseA","CourseB","CourseM","CourseA"],
+					STEM : ["Business","Public and Human Services","ABMCareer","CourseA","CourseB","CourseM","CourseM","CourseB","CourseA","CourseB","CourseM","CourseA"],
+					GAS : ["BE","Normal","GAS","Gasolinahan","Exist","Explode","CourseM","CourseB","CourseA","CourseB","CourseM","CourseA"],
+					ArtsDesign : ["Business","Public and Human Services","ABMCareer","CourseA","CourseB","CourseM","CourseM","CourseB","CourseA","CourseB","CourseM","CourseA"],
+					Sports: ["Athlete","Health","Magic","Soccer","Football","Rugby","Skating","Rolling","Hating","TEST","Sports","AAHAH"]
+				};
+
 	$(document).ready(function(){
 		$( ".panel-body" ).hide();
 		$( "#careersrow" ).hide();
@@ -123,9 +141,11 @@
 		$( "#delayrow" ).hide();
 		
 		checkColor();
-
+		var iterator = 0;
 		$( ".panelTrack" ).click(function() {
-			classHold = $(this).find("h4").html().toLowerCase()+"Class";
+			// Colors
+			track = $(this).find("h4").html();
+			classHold = track.toLowerCase()+"Class";
 			$('.panelCareers').each(function(){
 		        var panelHeading = $(this).find(".panel-heading");
 		        panelHeading.removeClass();
@@ -139,7 +159,16 @@
 		        panelHeading.css("opacity","0.8");
 		    });
 
+			// Set Text
+			iterator = 0;
+			$('.panelCareers').each(function(){
+		        $(this).find("h4").text(Tracks[track][iterator++]);
+		    });
+		    $('.panelCourses').each(function(){
+		        $(this).find("h4").text(Tracks[track][iterator++]);
+		    });
 
+			// Animations
 			$( "#careerscourses" ).slideToggle( "slow", function() {
 				$( "#careersrow" ).slideToggle( "slow", function() {
 					$( ".panelCareers" ).slideDown( "slow", function() {});
@@ -154,6 +183,7 @@
 		});
 
 		$( ".panelCareers" ).click(function() {
+			// Animations
 			$( "#delayrow" ).slideToggle( "slow", function() {
 				$( "#coursesrow" ).slideToggle( "slow", function() {});
 			});
@@ -169,3 +199,4 @@
 	    });
 	}
 </script>
+<script> w3.includeHTML(); </script>

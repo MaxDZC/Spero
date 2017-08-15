@@ -129,7 +129,6 @@ div.stemClass{
 div.abmClass{
 	background-color: #58ce70;
 	color: #2a823c;
-
 }
 div.humssClass{
 	background-color: #5c90d1;
@@ -138,6 +137,14 @@ div.humssClass{
 div.gasClass{
 	background-color: #efefef;
 	color: #a5a5a5;
+}
+div.artsdesignClass{
+	background-color: #67338e;
+	color: #2c163d;
+}
+div.sportsClass{
+	background-color: #d31919;
+	color: #5b0b0b;
 }
 
 .marginTop{

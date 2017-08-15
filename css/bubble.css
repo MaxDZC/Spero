@@ -244,3 +244,62 @@ body{
   -webkit-margin-before: 0em;
   -webkit-margin-after: 0em;
 }
+
+
+
+/* Right triangle placed top left flush. */
+@media (max-width: 540px) {
+	.tri-right.left-top-bot:before {
+		visibility: "hidden";
+	}
+	.tri-right.left-top-bot:after{
+		visibility: "hidden";	
+	}
+	.tri-right.border.btm-in:before {
+		visibility: "hidden";
+	}
+	.tri-right.btm-in:after{
+		visibility: "hidden";
+	}
+}
+@media (min-width: 540px) {
+	.tri-right.left-top-bot:before {
+		content: ' ';
+		position: absolute;
+		width: 0;
+		height: 0;
+	  	left: auto;
+		right: auto;
+	  	top: 135px;
+		bottom: auto;
+		border: 32px solid;
+		border-color: #a5d5ff transparent transparent transparent;
+	}
+	.tri-right.left-top-bot:after{
+		
+		border-color: #a5d5ff transparent transparent transparent;
+	}
+	/*Right triangle, placed bottom center in*/
+	.tri-right.border.btm-in:before {
+		content: ' ';
+		position: absolute;
+		width: 0;
+		height: 0;
+	  left: auto;
+		right: 40%;
+		bottom: -60px;
+		border: 20px solid;
+		border-color: #a5d5ff #a5d5ff transparent transparent;
+	}
+	.tri-right.btm-in:after{
+		content: ' ';
+		position: absolute;
+		width: 0;
+		height: 0;
+	  left: auto;
+		right: 40%;
+		bottom: -20px;
+		border: 12px solid;
+		border-color: #a5d5ff #a5d5ff transparent transparent;
+	}
+}

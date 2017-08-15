@@ -1,6 +1,15 @@
 <html>
 	<head>
-		<?php include("include/externals.php");?>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script src="js/jquery-3.2.1.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/w3.js"></script>
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/navbar.css">
+		<link rel="stylesheet" href="css/styles.css">
+		<link rel="stylesheet" href="css/bubble.css">
+
 	</head>
 	<body class="pale">	
 		<div class="fullscreen">
@@ -34,12 +43,11 @@
 					</div>
 				</div>
 			</div>
-			<?php include("include/footer.php");?>
+			<div w3-include-html="include/footer.html" class="row footer"></div>
 		</div>
 		
 	</body>
 </html>
-
 <script>
 	window.setTimeout(function(){
 		$(".fullscreen").fadeOut(2000,function(){ 
@@ -50,9 +58,10 @@
 		$(".fullscreen").fadeIn(2000,function(){
 			window.setTimeout(function(){
 				switch(x){
-					case 1: window.location = "home.php";break;
+					case 1: window.location = "home.html";break;
 				}	
 			},500);
 		});
 	}
 </script>
+<script> w3.includeHTML(); </script>
