@@ -74,6 +74,9 @@ div.panel{
 	background-color: #f2f9ff;
 	border-color: #f2f9ff;
 	color: #a5d5ff;
+	border-radius: 30px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
 }
 div.panel-heading-color{
 	background-color: #a5d5ff;
@@ -124,27 +127,45 @@ div.panelfooter{
 
 div.stemClass{
 	background-color: #f6ff8e;
-	color: #8f9354;
+	color: #6a6d3d;
+	border-radius: 30px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
 }
 div.abmClass{
 	background-color: #58ce70;
-	color: #2a823c;
+	color: #1c5b29;
+	border-radius: 30px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
 }
 div.humssClass{
 	background-color: #5c90d1;
-	color: #31598c;
+	color: #213f66;
+	border-radius: 30px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
 }
 div.gasClass{
-	background-color: #efefef;
-	color: #a5a5a5;
+	background-color: white;
+	color: #7a7a7a;
+	border-radius: 30px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
 }
 div.artsdesignClass{
-	background-color: #67338e;
-	color: #2c163d;
+	background-color: #461e63;
+	color: #a459db;
+	border-radius: 30px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
 }
 div.sportsClass{
-	background-color: #d31919;
-	color: #5b0b0b;
+	background-color: #ce3333;
+	color: #601818;
+	border-radius: 30px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
 }
 
 .marginTop{

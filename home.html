@@ -16,6 +16,9 @@
 				top: 40%;
 				transform: translateY(-50%);
 			}
+			span{
+				font-size: 0.9em;
+			}
 		</style>
 	</head>
 	<body class="pale">	
@@ -27,7 +30,15 @@
 					 	<div class="panel panelTrack">
 					 		<div class="panel-heading text-center">
 					 			<img class="title margins" src="img/bird.png" ><br>
-					 			<h4 class="word">STEM</h4>
+					 			<h4 class="word">Sports</h4>
+					 		</div>
+					 	</div>
+					</div>
+					<div class="col-xs-4 col-sm-4">
+					 	<div class="panel panelTrack">
+					 		<div class="panel-heading text-center">
+					 			<img class="title margins" src="img/bird.png" ><br>
+					 			<h4 class="word">HUMSS</h4>
 					 		</div>
 					 	</div>
 					</div>
@@ -36,14 +47,6 @@
 					 		<div class="panel-heading text-center">
 					 			<img class="title margins" src="img/bird.png" ><br>
 					 			<h4 class="word">ArtsDesign</h4>
-					 		</div>
-					 	</div>
-					</div>
-					<div class="col-xs-4 col-sm-4">
-					 	<div class="panel panelTrack">
-					 		<div class="panel-heading text-center">
-					 			<img class="title margins" src="img/bird.png" ><br>
-					 			<h4 class="word">Sports</h4>
 					 		</div>
 					 	</div>
 					</div>
@@ -56,7 +59,7 @@
 						 	<div class="panel panelCareers">
 						 		<div class="panel-heading text-center">
 						 			<img class="title margins" src="img/bird.png" ><br>
-						 			<h4>Career Name</h4>
+						 			<h5>Career Name</h5>
 						 		</div>
 						 	</div>
 						</div>
@@ -64,7 +67,7 @@
 						 	<div class="panel panelCareers">
 						 		<div class="panel-heading text-center">
 						 			<img class="title margins" src="img/bird.png" ><br>
-						 			<h4>Career Name</h4>
+						 			<h5>Career Name</h5>
 						 		</div>
 						 	</div>
 						</div>
@@ -72,7 +75,7 @@
 						 	<div class="panel panelCareers">
 						 		<div class="panel-heading text-center">
 						 			<img class="title margins" src="img/bird.png" ><br>
-						 			<h4>Career Name</h4>
+						 			<h5>Career Name</h5>
 						 		</div>
 						 	</div>
 						</div>
@@ -84,33 +87,24 @@
 							<div class="col-xs-4 col-sm-4">
 							 	<div class="panel panelCourses">
 							 		<div class="panel-heading">
-							 			<h4>Possible Courses</h4>
-							 			<hr/>
-								 		aaa<br>
-								 		aaa<br>
-								 		aaa<br>
+							 			<h6>Possible Courses</h6>
+								 		<span>Description</span>
 							 		</div>
 							 	</div>
 							</div>
 							<div class="col-xs-4 col-sm-4">
 							 	<div class="panel panelCourses">
 							 		<div class="panel-heading">
-							 			<h4>Possible Courses</h4>
-							 			<hr/>
-								 		aaa<br>
-								 		aaa<br>
-								 		aaa<br>
+							 			<h6>Possible Courses</h6>
+								 		<span>Description</span>
 							 		</div>
 							 	</div>
 							</div>
 							<div class="col-xs-4 col-sm-4">
 							 	<div class="panel panelCourses">
 							 		<div class="panel-heading">
-							 			<h4>Possible Courses</h4>
-							 			<hr/>
-								 		aaa<br>
-								 		aaa<br>
-								 		aaa<br>
+							 			<h6>Possible Courses</h6>
+								 		<span>Description</span>
 							 		</div>
 							 	</div>
 							</div>
@@ -125,12 +119,21 @@
 
 <script>
 	var Tracks = {
-					ABM : ["Business","Public and Human Services","ABMCareer","CourseA","CourseB","CourseM","CourseM","CourseB","CourseA","CourseB","CourseM","CourseA"],
-					HUMSS : ["Business","Public and Human Services","ABMCareer","CourseA","CourseB","CourseM","CourseM","CourseB","CourseA","CourseB","CourseM","CourseA"],
-					STEM : ["Business","Public and Human Services","ABMCareer","CourseA","CourseB","CourseM","CourseM","CourseB","CourseA","CourseB","CourseM","CourseA"],
-					GAS : ["BE","Normal","GAS","Gasolinahan","Exist","Explode","CourseM","CourseB","CourseA","CourseB","CourseM","CourseA"],
-					ArtsDesign : ["Business","Public and Human Services","ABMCareer","CourseA","CourseB","CourseM","CourseM","CourseB","CourseA","CourseB","CourseM","CourseA"],
-					Sports: ["Athlete","Health","Magic","Soccer","Football","Rugby","Skating","Rolling","Hating","TEST","Sports","AAHAH"]
+					ABM : ["Business","Public and Human Services","ABMCareer","CourseA","CourseB","CourseM","CourseM","CourseB","CourseA","CourseB","CourseM","CourseA","CourseA","CourseA","CourseA","CourseA","CourseA","CourseA","CourseA","CourseA","CourseA"],
+					HUMSS : ["Business","Public and Human Services","ABMCareer","CourseA","CourseB","CourseM","CourseM","CourseB","CourseA","CourseB","CourseM","CourseA","CourseA","CourseA","CourseA","CourseA","CourseA","CourseA","CourseA","CourseA","CourseA"],
+					STEM : ["Science","NotScience","VeryScience","HAHAHA","Courses","WAOW","CourseM","CourseB","CourseA","CourseB","CourseM","CourseA","CourseA","CourseA","CourseA","CourseA","CourseA","CourseA","CourseA","CourseA","CourseA"],
+					GAS : ["BE","Normal","GAS","Gasolinahan","Exist","Explode","CourseM","CourseB","CourseA","CourseB","CourseM","CourseA","CourseA","CourseA","CourseA","CourseA","CourseA","CourseA","CourseA","CourseA","CourseA"],
+					ArtsDesign : ["Paint","Public Paint","Computer Paint","NOt Paint","CourseB","CourseM","CourseM","CourseB","CourseA","CourseB","CourseM","CourseA","CourseA","CourseA","CourseA","CourseA","CourseA","CourseA","CourseA","CourseA","CourseA"],
+					Sports: ["Physical Education Instructor", "Physical Therapist", "Coach",
+							 "Bachelor in Elementary Education Major in MAPE", "Description of AHAHAHD",
+							 "Bachelor in Secondary Education Major in MAPEH", "Description of PAAAD",
+							 "Bachelor of Science in Education Major in Physical Education", "Description of PEED",
+							 "Skating", "Description of PEID",
+							 "Rolling", "Description of PEID",
+							 "Hating", "Description of PADAAD",
+							 "TEST", "Description of PEID",
+							 "Sports", "Description of PAAOOAID",
+							 "AAHAH", "Description of PEID"]
 				};
 
 	$(document).ready(function(){
@@ -150,22 +153,19 @@
 		        var panelHeading = $(this).find(".panel-heading");
 		        panelHeading.removeClass();
 		        panelHeading.addClass("panel-heading text-center "+classHold);
-		        panelHeading.css("opacity","0.9");
+		        // panelHeading.css("opacity","0.9");
 		    });
 			$('.panelCourses').each(function(){
 		        var panelHeading = $(this).find(".panel-heading");
 		        panelHeading.removeClass();
 		        panelHeading.addClass("panel-heading text-center "+classHold);
-		        panelHeading.css("opacity","0.8");
+		        // panelHeading.css("opacity","0.8");
 		    });
 
 			// Set Text
 			iterator = 0;
 			$('.panelCareers').each(function(){
-		        $(this).find("h4").text(Tracks[track][iterator++]);
-		    });
-		    $('.panelCourses').each(function(){
-		        $(this).find("h4").text(Tracks[track][iterator++]);
+		        $(this).find("h5").text(Tracks[track][iterator++]);
 		    });
 
 			// Animations
@@ -183,6 +183,13 @@
 		});
 
 		$( ".panelCareers" ).click(function() {
+			//setText
+			iterator = 3 + (6 * $(".panelCareers").index(this));
+			$('.panelCourses').each(function(){
+		        $(this).find("h6").text(Tracks[track][iterator++]);
+		        $(this).find("span").text(Tracks[track][iterator++]);
+		    });
+
 			// Animations
 			$( "#delayrow" ).slideToggle( "slow", function() {
 				$( "#coursesrow" ).slideToggle( "slow", function() {});
